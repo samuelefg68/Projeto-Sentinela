@@ -1,0 +1,114 @@
+body{
+    height: 100vh;
+    /* define a imagem de fundo*/
+    background-image: url(./colorwave.png);
+    /* define a fonte das letras*/
+    font-family: 'Poppins', sans-serif; 
+    /* centraliza os itens na tela */  
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    background-size: cover;                          
+}
+
+#maior{
+    /* define cor de fundo*/
+    background-color: rgba(255, 255, 255, 0.3);
+    /* define cor e estilo da borda*/
+    border: 1px, solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    /* cria uma sombra atras do objeto*/
+    box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.3);
+    /* cria um efeito de blur nos objetos que estão atras */
+    backdrop-filter: blur(7px);
+    padding: 13px;
+}
+
+#titulo{
+    /* define cor de fundo*/
+    background-color: rgba(202, 255, 246, 0.719);
+    /* define cor e estilo da borda*/
+    border: 1px, solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    /* cria uma sombra atras do objeto*/
+    box-shadow: 0px 0px 30px hsl(0, 0%, 0%, 0.3);
+}
+
+#paba{
+    /* define cor de fundo*/
+    background-color: rgb(240, 248, 255, 0.8);
+    /* define cor e estilo da borda*/
+    border: 1px, solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    /* cria uma sombra atras do objeto*/
+    box-shadow: 0px 0px 30px hsl(0, 0%, 0%, 0.3);
+}
+
+#saba{
+    /* define cor de fundo*/
+    background-color: rgb(240, 248, 255, 0.8);
+    /* define cor e estilo da borda*/
+    border: 1px, solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    /* cria uma sombra atras do objeto*/
+    box-shadow: 0px 0px 30px hsl(0, 0%, 0%, 0.3);
+}
+input{
+   /* define cor de fundo*/
+    background: rgba(202, 255, 255, 0.562);
+    padding: 4px;
+    /* define cor e estilo da borda*/
+    border-radius: 20px;
+    border-color: rgb(0, 0, 0, 0.0);
+    /* remove as linhas de borda da caixa de texto */
+    outline: none;
+    transition: background-color 0.2s;
+}
+input:hover{
+    background-color:  rgba(154, 190, 190, 0.562);
+}
+
+
+#finalizar{
+    /* define cor de fundo*/
+    background-color: black;
+    /* define cor e estilo da borda*/
+    border-radius: 30px;
+    /* centraliza os itens na tela */  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* define a cor do texto */
+    color: white;
+    /* remove todas as decorações do texto */
+    text-decoration: none;
+    transition: scale 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+#finalizar:hover{
+    scale: 1.04;
+    background-color: rgb(0, 0, 97);
+    color: aliceblue;
+}
+
+#legenda2{
+    /* define cor de fundo*/
+    background: rgba(240, 248, 255, 0.8);
+    /* define cor e estilo da borda*/
+    border-radius: 6px;
+    border-color: rgb(0, 0, 0, 0.0);
+    /* remove as linhas de borda da caixa de texto */
+    outline: none;
+    padding: 3px;
+}
+
+#legenda3{
+    /* define cor de fundo*/
+    background: rgba(240, 248, 255, 0.8);
+    /* define cor e estilo da borda*/
+    border-radius: 6px;
+    border-color: rgb(0, 0, 0, 0.0);
+    /* remove as linhas de borda da caixa de texto */
+    outline: none;
+    padding: 3px;
+}
